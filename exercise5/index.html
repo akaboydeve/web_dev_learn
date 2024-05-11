@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .nav {
+            background-color: #BEADFA;
+            height: 50px;
+            width: 100%;
+            position: sticky;
+            z-index: 1;
+            top: 0;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav ul li {
+            padding: 10px;
+            list-style: none;
+            font-weight: bolder;
+        }
+
+        .nav a {
+            color: black;
+        }
+
+        .boxes {
+            background-color: aqua;
+            width: 100%;
+            height: 480px;
+            padding: 40px;
+        }
+
+        .box {
+            position: absolute;
+            margin: 10px;
+            border-radius: 10px;
+            border: 2px solid black;
+            height: 360px;
+            width: 40%;
+        }
+
+        .box1 {
+            left: 5%;
+            background-color: coral;
+        }
+
+        .box2 {
+            right: 5%;
+            background-color: lime;
+        }
+
+        .article {
+            background-color: antiquewhite;
+            margin: 2%;
+            border: 2px solid black;
+            border-radius: 30px;
+            padding: 20px;
+            font-size: large;
+        }
+
+        .footer {
+            background-color: blueviolet;
+            height: 50px;
+            width: 100%;
+        }
+
+        .footer ul {
+            color: white;
+
+        }
+
+        .footer ul li {
+            list-style: none;
+            padding: 10px;
+            font-weight: bolder;
+
+        }
+
+        .footer a {
+            color: white;
+        }
+
+        .floating {
+            text-align: center;
+            width: 50px;
+            border-radius: 50%;
+            position: fixed;
+            top: 90%;
+            left: 90vw;
+        }
+
+        .floating img {
+            height: 50px;
+            overflow: hidden;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+
+        a:hover {
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/">PRODUCTS</a></li>
+            <li><a href="/">ABOUT</a></li>
+            <li><a href="/">CONTACT US</a></li>
+        </ul>
+    </div>
+    <div class="boxes">
+        <div class="box box1">card 1</div>
+        <div class="box box2">card 2</div>
+    </div>
+    <div class="article">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio amet aut officiis, laudantium, nemo
+            accusantium ea, sit a harum eius minima nihil dignissimos maxime modi temporibus inventore nostrum
+            perferendis! Optio quis quas odit deleniti consequuntur accusamus similique? Amet omnis reprehenderit iure
+            laboriosam labore quos excepturi nobis, nostrum repellat veritatis! Ex vero amet iure veritatis porro totam
+            ipsum quidem aperiam minima repellendus facere quis, delectus ullam tempore libero accusantium, a officia
+            sit ducimus deserunt sapiente voluptate fugiat magnam assumenda? Distinctio quod iste sit error, saepe
+            praesentium fugiat excepturi perferendis amet dolores corporis beatae. Commodi maxime asperiores quis quos
+            repellendus laborum reprehenderit laboriosam, porro repellat voluptates eos, cupiditate animi corrupti
+            similique nobis autem quidem quibusdam iste sed quas. Optio voluptatem sequi vel exercitationem. Nobis ipsa
+            quam doloribus laboriosam velit asperiores, quaerat cupiditate beatae nesciunt laudantium amet ratione.
+            Molestiae, necessitatibus dicta. Unde tenetur nihil soluta, recusandae fugit placeat ab nobis vero
+            consectetur sunt ad reiciendis deserunt excepturi assumenda saepe nam commodi tempore eos sapiente a. Dolore
+            quia aut autem consectetur! Illo iusto at laborum, eaque quod, iure, cupiditate odio ab molestiae deserunt
+            expedita numquam repellendus exercitationem? Quia nam nobis officiis facere quidem ipsum laboriosam
+            inventore rerum aliquid, sed temporibus vero explicabo repudiandae quam voluptatum impedit molestias,
+            corporis voluptate quis voluptatem! Sint, quam cum consequuntur quibusdam corrupti, possimus repellat
+            similique, est laudantium maiores quod nobis placeat incidunt voluptates velit perferendis libero corporis
+            fugit et deserunt nulla ipsum praesentium cumque? Quisquam veniam provident, deleniti neque optio a.
+            Molestiae, maxime? Perspiciatis suscipit fugiat quibusdam itaque voluptas earum esse exercitationem, dicta
+            neque voluptatibus, eius voluptatem sed consequatur commodi accusamus corrupti dolore molestiae laborum
+            autem quisquam harum. Itaque, error. Vel corrupti provident dolor explicabo quaerat amet? Nobis quas quidem
+            deserunt ab, cumque tempora, aperiam labore laboriosam sit maiores eum quo quae tempore accusantium vero
+            accusamus nam fugiat sint beatae itaque ex debitis minima. Culpa ut cupiditate aperiam fugiat unde cum
+            tempore dolores placeat nostrum fugit animi, necessitatibus, accusamus eius pariatur dolore incidunt sequi
+            vitae, repellat quos neque? Rerum, quos? Dolorem ullam ipsum ut expedita quo sit accusamus, eos aperiam
+            error? Officiis optio doloremque animi harum, culpa dicta quis reprehenderit error sapiente a iure eveniet
+            ullam totam odio consectetur soluta ducimus quod fuga ab. Dolore iusto praesentium cumque illo beatae? Iste
+            eius alias officia aspernatur culpa sunt, accusamus similique, facilis quis dolore optio voluptas doloremque
+            totam sequi aliquid aut modi distinctio dicta sapiente nostrum sed, vero inventore id. Perferendis pariatur
+            tenetur et, libero dolore quam voluptatem voluptas quidem facilis architecto quod placeat consequuntur sed
+            harum veniam. Vitae quae quidem repellat! Neque, eaque explicabo possimus perspiciatis, sequi aut sit
+            eveniet voluptatem officiis dolor quae ducimus quibusdam quos ullam! Ratione veniam corrupti tenetur non
+            nemo asperiores quasi est modi, adipisci aspernatur recusandae accusantium iste repellat quidem. Est hic
+            ipsam alias deserunt ea quidem nostrum recusandae cum consequatur minima libero quam, temporibus laborum
+            expedita earum eius cumque soluta explicabo perspiciatis facere fugit tempora. Placeat sapiente cum dolorem,
+            sed tenetur quos voluptates eum error atque eveniet aliquam ea. Nulla tenetur nemo tempora cumque?</p>
+    </div>
+    <div class="floating">
+        <a href="/"><img
+                src="https://cdn.discordapp.com/attachments/983640859620806717/1046050399506944091/hexgame.png?ex=654f7d59&is=653d0859&hm=14eed5ec56df4d14d5a9b27b7875a6f95c0ddc82435569d0cd7fd0657e42736b&"
+                alt="Hexgame Logo"></a>
+
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li><a href="/">YOUTUBE</a></li>
+            <li><a href="/">INSTA</a></li>
+            <li><a href="/">MAIL</a></li>
+            <li><a href="/">DISCORD</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

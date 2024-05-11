@@ -1,0 +1,32 @@
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    background-color: white;
+}
+
+.rectangle {
+    width: 100px;
+    height: 100px;
+    flex-order: 1;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+    flex-order: 2;
+}
+
+.green {
+    background-color: green;
+    flex-order: 3;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}

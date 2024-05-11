@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ball Animation</title>
+    <style>
+        .container {
+            height: 600px;
+            width: 1000px;
+            background-color: aquamarine;
+            position: relative;
+        }
+
+        .ball {
+            height: 80px;
+            width: 80px;
+            background-color: red;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-radius: 100%;
+            animation: drop 1s cubic-bezier(1, 0, 1, 0.8) 2s infinite alternate, slide 15s linear 2s infinite alternate;
+        }
+
+        @keyframes drop {
+            0% {
+                bottom: 400px;
+                background-color: blue;
+            }
+
+            100% {
+                bottom: 0px;
+                background-color: coral;
+            }
+        }
+
+        @keyframes slide {
+            0% {
+                left: 0px;
+            }
+
+            100% {
+                left: 900px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="ball"></div>
+    </div>
+</body>
+
+</html>

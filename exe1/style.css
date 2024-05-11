@@ -1,0 +1,19 @@
+header {
+    align-content: center;
+    text-align: center;
+    border: 10px black;
+    border-style: solid;
+    background-color: antiquewhite;
+}
+
+.av {
+    text-align: center;
+}
+
+.av>div {
+    border: solid 4px black;
+    padding: 20px;
+    background-color: coral;
+    margin: 10px;
+    border-radius: 2rem;
+}
